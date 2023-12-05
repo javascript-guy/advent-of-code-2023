@@ -1,5 +1,5 @@
 const puzzleEight = () => {
-  const input = require("./input").input;
+  const input = require("./input");
   const lines = input.split(/\n/);
   const getLinePoints = (winningNumbers, elfsNumbers) =>
     winningNumbers.filter((num) => elfsNumbers.includes(num)).length;
@@ -28,4 +28,4 @@ const puzzleEight = () => {
   }
   return lineAmounts.reduce((a, b) => a + b.count, 0);
 };
-module.exports = { puzzleEight };
+module.exports = puzzleEight;

@@ -99,4 +99,4 @@ Game 98: 1 red, 3 blue; 3 green; 1 red, 4 green; 1 red, 4 blue, 3 green; 2 blue,
 Game 99: 8 blue, 3 green; 1 green, 3 red; 2 green, 5 blue, 7 red; 5 red, 9 blue, 1 green; 3 green, 6 red, 7 blue; 3 green, 6 blue, 9 red
 Game 100: 13 green, 9 blue, 4 red; 2 green, 2 red, 15 blue; 1 red, 1 green; 9 green, 1 red`;
 
-module.exports = { gameInput };
+module.exports = gameInput;

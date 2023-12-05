@@ -1,5 +1,5 @@
 const puzzleSeven = () => {
-  const input = require("./input").input;
+  const input = require("./input");
   const lines = input.split(/\n/);
   const points = [];
   for (line of lines) {
@@ -26,4 +26,4 @@ const puzzleSeven = () => {
   return points.reduce((a, b) => a + b, 0);
 };
 
-module.exports = { puzzleSeven };
+module.exports = puzzleSeven;

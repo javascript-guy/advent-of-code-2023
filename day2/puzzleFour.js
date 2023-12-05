@@ -1,5 +1,5 @@
 const puzzleFour = () => {
-  const gameInput = require("./input").gameInput;
+  const gameInput = require("./input");
   const splitGames = gameInput.split(/\n/);
 
   const powers = [];
@@ -28,4 +28,4 @@ const puzzleFour = () => {
   return answer;
 };
 
-module.exports = { puzzleFour };
+module.exports = puzzleFour;

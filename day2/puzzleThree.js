@@ -1,5 +1,5 @@
 const puzzleThree = () => {
-  const gameInput = require("./input").gameInput;
+  const gameInput = require("./input");
 
   const splitGames = gameInput.split(/\n/);
 
@@ -35,4 +35,4 @@ const puzzleThree = () => {
   return answer;
 };
 
-module.exports = { puzzleThree };
+module.exports = puzzleThree;

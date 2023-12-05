@@ -1,5 +1,5 @@
 const puzzleSix = () => {
-  const input = require("./input").input;
+  const input = require("./input");
 
   const engineRows = input.split(/\n/);
 
@@ -79,4 +79,4 @@ const puzzleSix = () => {
   return gearSum;
 };
 
-module.exports = { puzzleSix };
+module.exports = puzzleSix;

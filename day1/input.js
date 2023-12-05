@@ -999,4 +999,4 @@ lmfgxfdsevenchrkbhxlrrssbcqqf7fivectglcvrsrg8
 mchm6
 mbvtbcjvv33rqfsllshb`;
 
-module.exports = { gameInput };
+module.exports = gameInput;

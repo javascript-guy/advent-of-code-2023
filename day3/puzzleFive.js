@@ -1,5 +1,5 @@
 const puzzleFive = () => {
-  const input = require("./input").input;
+  const input = require("./input");
 
   const engineRows = input.split(/\n/);
 
@@ -59,4 +59,4 @@ const puzzleFive = () => {
   return totalSum;
 };
 
-module.exports = { puzzleFive };
+module.exports = puzzleFive;
